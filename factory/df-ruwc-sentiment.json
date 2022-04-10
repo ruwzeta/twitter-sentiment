@@ -1,0 +1,9 @@
+{
+	"name": "df-ruwc-sentiment",
+	"location": "eastus",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "04a66d96-8cf4-4c85-b220-3b11bfb1436e",
+		"tenantId": "da9a94b6-4681-49bc-bd7c-bab9eac0ad3c"
+	}
+}
