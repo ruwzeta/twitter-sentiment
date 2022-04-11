@@ -1,0 +1,16 @@
+{
+	"name": "DestinationDataset_ku7",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "AzureSqlDatabase2",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "AzureSqlTable",
+		"schema": [],
+		"typeProperties": {
+			"schema": "twit_table",
+			"table": "Azure Blob Storage file"
+		}
+	}
+}
