@@ -1,0 +1,16 @@
+{
+	"name": "DestinationDataset_vnb",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "AzureSqlDatabase2",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "AzureSqlTable",
+		"schema": [],
+		"typeProperties": {
+			"schema": "tweet_sentiment",
+			"table": "Azure Blob Storage file"
+		}
+	}
+}
