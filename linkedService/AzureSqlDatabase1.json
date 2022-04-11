@@ -6,7 +6,7 @@
 		"type": "AzureSqlDatabase",
 		"typeProperties": {
 			"connectionString": "integrated security=False;encrypt=True;connection timeout=30;data source=ruwc1.database.windows.net;initial catalog=db-ruwc-twit;user id=admin123",
-			"encryptedCredential": "ew0KICAiVmVyc2lvbiI6ICIyMDE3LTExLTMwIiwNCiAgIlByb3RlY3Rpb25Nb2RlIjogIktleSIsDQogICJTZWNyZXRDb250ZW50VHlwZSI6ICJQbGFpbnRleHQiLA0KICAiQ3JlZGVudGlhbElkIjogIkRBVEFGQUNUT1JZQDQ3QzA3RUYzLTdENUUtNEYwMC1BMTE5LTJGNTI2RTBCMDMyRV8xZGEzNzBmMC04OTBkLTQ1N2UtYmQwZC0yYzMxMDQ1M2Q2MDkiDQp9"
+			"encryptedCredential": "ew0KICAiVmVyc2lvbiI6ICIyMDE3LTExLTMwIiwNCiAgIlByb3RlY3Rpb25Nb2RlIjogIktleSIsDQogICJTZWNyZXRDb250ZW50VHlwZSI6ICJQbGFpbnRleHQiLA0KICAiQ3JlZGVudGlhbElkIjogIkRBVEFGQUNUT1JZQDQ3QzA3RUYzLTdENUUtNEYwMC1BMTE5LTJGNTI2RTBCMDMyRV9iMjdjMTRlZC0yMDhiLTQzMzMtYWIxZC1mOTc4Njg0NzY4OGMiDQp9"
 		}
 	}
 }
