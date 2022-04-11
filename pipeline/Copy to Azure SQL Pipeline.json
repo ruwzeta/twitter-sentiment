@@ -1,5 +1,5 @@
 {
-	"name": "pipeline1",
+	"name": "Copy to Azure SQL Pipeline",
 	"properties": {
 		"activities": [
 			{
