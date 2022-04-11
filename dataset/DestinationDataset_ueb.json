@@ -1,0 +1,16 @@
+{
+	"name": "DestinationDataset_ueb",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "AzureSqlDatabase2",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "AzureSqlTable",
+		"schema": [],
+		"typeProperties": {
+			"schema": "tweets_table",
+			"table": "Azure Blob Storage file"
+		}
+	}
+}
