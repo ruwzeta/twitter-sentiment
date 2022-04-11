@@ -15,6 +15,10 @@
 		"typeProperties": {
 			"location": {
 				"type": "AzureBlobStorageLocation",
+				"fileName": {
+					"value": "@dataset().File Name",
+					"type": "Expression"
+				},
 				"folderPath": "UI/04-10-2022_114008_UTC",
 				"container": "azureml-blobstore-4a3696ad-f6b9-418a-a46c-39b87417432b"
 			},
