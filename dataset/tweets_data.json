@@ -1,0 +1,46 @@
+{
+	"name": "tweets_data",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "AzureBlobStorage1",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "Parquet",
+		"typeProperties": {
+			"location": {
+				"type": "AzureBlobStorageLocation",
+				"fileName": "output.parquet",
+				"folderPath": "UI/04-10-2022_114008_UTC",
+				"container": "azureml-blobstore-4a3696ad-f6b9-418a-a46c-39b87417432b"
+			},
+			"compressionCodec": "snappy"
+		},
+		"schema": [
+			{
+				"name": "target",
+				"type": "INT64"
+			},
+			{
+				"name": "ids",
+				"type": "INT64"
+			},
+			{
+				"name": "date",
+				"type": "UTF8"
+			},
+			{
+				"name": "flag",
+				"type": "UTF8"
+			},
+			{
+				"name": "user",
+				"type": "UTF8"
+			},
+			{
+				"name": "text",
+				"type": "UTF8"
+			}
+		]
+	}
+}
